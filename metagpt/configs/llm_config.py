@@ -80,7 +80,7 @@ class LLMConfig(YamlModel):
     proxy: Optional[str] = None
 
     # Cost Control
-    calc_usage: bool = True
+    calc_usage: bool = False
 
     @field_validator("api_key")
     @classmethod

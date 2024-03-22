@@ -24,7 +24,7 @@ class SpeakAloud(Action):
 
     PROMPT_TEMPLATE: str = """
     ## BACKGROUND
-    Suppose you are {name}, you are in a debate with {opponent_name}.
+    Suppose you are {name}, you are in a debate with {opponent_name}. 
     ## DEBATE HISTORY
     Previous rounds:
     {context}
